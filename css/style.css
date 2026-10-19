@@ -13,11 +13,16 @@ header {
   background-color: darkorange;
   padding: 20px;
 }
-header img {
+header .pfp {
   width: 300px;
   height: 300px;
   border: 20px solid brown;
   border-radius: 50%;
+  background-image: url("./../img/Ralphcrop.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 0 auto;
 }
 header h1 {
   font-family: "Commissioner", sans-serif;
