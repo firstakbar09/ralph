@@ -1,12 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
 
 body {
-  background-color: goldenrod;
+  font-family: arial, helvetica, sans-serif;
 }
+
 html,
 body {
   margin: 0;
   padding: 0;
+}
+p,
+ul,
+ol {
+  font-size: 20px;
+  line-height: 30px;
+}
+ul,
+ol {
+  font-size: 20px;
+  list-style-position: inside;
+}
+a {
+  color: red;
+}
+
+a:hover {
+  color: darkred;
+}
+a:active {
+  color: darkblue;
+}
+a:visited {
+  color: rgb(216, 154, 117);
+}
+p.caption {
+  font-size: 13px;
+  color: gray;
+  margin: 0;
+  font-style: oblique;
 }
 header {
   text-align: center;
@@ -24,11 +55,26 @@ header .pfp {
   background-size: cover;
   margin: 0 auto;
 }
-header h1 {
+h1 {
   font-family: "Commissioner", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-size: 70px;
   margin: 10px 0 20px 0;
   color: darkblue;
+}
+h2 {
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-size: 50px;
+  margin: 20px 0;
+  color: black;
+}
+main {
+  width: 800px;
+  margin: 0 auto;
+}
+main img {
+  max-width: 100%;
 }
