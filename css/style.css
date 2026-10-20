@@ -31,7 +31,7 @@ a:active {
   color: darkblue;
 }
 a:visited {
-  color: rgb(216, 154, 117);
+  color: rgb(142, 49, 255);
 }
 p.caption {
   font-size: 13px;
@@ -77,4 +77,14 @@ main {
 }
 main img {
   max-width: 100%;
+}
+footer {
+  padding: 40px;
+  background-color: orange;
+  text-align: center;
+}
+footer .content {
+  width: 800px;
+  margin: 0 auto;
+  align-items: center;
 }
