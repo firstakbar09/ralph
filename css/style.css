@@ -55,6 +55,12 @@ header .pfp {
   background-size: cover;
   margin: 0 auto;
 }
+header .pfp.vanellope {
+  background-image: url("./../img/van-big.jpeg");
+  background-position: 0px 0px;
+  background-size: cover;
+  border-color: aquamarine;
+}
 h1 {
   font-family: "Commissioner", sans-serif;
   font-optical-sizing: auto;
